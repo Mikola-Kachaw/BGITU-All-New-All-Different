@@ -1,8 +1,8 @@
-import ArrowNext from "../../../ui/Button/ArrowNext";
-import ArrowPrev from "../../../ui/Button/ArrowPrev";
-import Buildings from "../../../ui/Button/Buildings";
-import Button from "../../../ui/Button/Button";
-import MenuButton from "../../../ui/Button/MenuButton";
+import ArrowNext from "../../../ui/Buttons/ArrowNext/ArrowNext";
+import ArrowPrev from "../../../ui/Buttons/ArrowPrev/ArrowPrev";
+import Buildings from "../../components/Buildings/Buildings";
+import LinkStyleButton from "../../../ui/Buttons/LinkStyleButton/LinkStyleButton";
+import MenuButton from "../../../ui/Buttons/MenuButton/MenuButton";
 
 export const TestPage = () => {
     return (
@@ -13,14 +13,14 @@ export const TestPage = () => {
                 </h1>
                 <a href="/">Назад</a>
                 <div></div>
-                <Button url="/test">абитуриентам</Button>
-                <Button url="/test">школьникам</Button>
-                <Button url="/test">студентам</Button>
-                <Button url="/test">выпускникам</Button>
-                <Button url="/test">аспирантам</Button>
-                <Button url="/test">наука</Button>
-                <Button url="/test">университет</Button>
-                <Button bg="#1968AB" cl="white" bc="#1968AB" url="/test">войти в эос</Button>
+                <LinkStyleButton url="/test">абитуриентам</LinkStyleButton>
+                <LinkStyleButton url="/test">школьникам</LinkStyleButton>
+                <LinkStyleButton url="/test">студентам</LinkStyleButton>
+                <LinkStyleButton url="/test">выпускникам</LinkStyleButton>
+                <LinkStyleButton url="/test">аспирантам</LinkStyleButton>
+                <LinkStyleButton url="/test">наука</LinkStyleButton>
+                <LinkStyleButton url="/test">университет</LinkStyleButton>
+                <LinkStyleButton bg="#1968AB" cl="white" bc="#1968AB" url="/test">войти в эос</LinkStyleButton>
                 <div></div>
                 <MenuButton />
                 <div></div>

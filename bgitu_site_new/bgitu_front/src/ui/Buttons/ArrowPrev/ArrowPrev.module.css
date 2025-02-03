@@ -1,0 +1,45 @@
+.arrowPrev{
+    position:relative;
+    width:40px;
+    height: 40px;
+    cursor:pointer;
+    overflow:hidden;
+    border:solid 2.5px black; 
+    border-radius:50%;
+    opacity: 0.3;
+}
+
+.arrowPrev:after{
+    position:absolute;
+    display:block;
+    content:"";
+    color:black;
+    width: 28px;
+    height: 18.75px;
+    top: 0px;
+    border-bottom:solid 2.5px;
+    transform:translatex(4px);
+}
+
+.arrowPrev:before{
+    position:absolute;
+    display:block;
+    content:"";
+    color:black;
+    width: 10px;
+    height: 10px;
+    border-top:solid 2.5px;
+    border-left:solid 2.5px;
+    top:50%;
+    left: 95%;
+    transform-origin:0% 0%;
+    transform:rotatez(135deg);
+}
+
+.arrowPrev:hover {
+    opacity: 1;
+}
+
+.arrowPrev:active {
+    opacity: 0.3;
+}
