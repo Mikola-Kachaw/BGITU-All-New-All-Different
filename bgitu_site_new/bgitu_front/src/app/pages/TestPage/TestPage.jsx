@@ -3,6 +3,16 @@ import ArrowPrev from "../../../ui/Buttons/ArrowPrev/ArrowPrev";
 import Buildings from "../../components/Buildings/Buildings";
 import LinkStyleButton from "../../../ui/Buttons/LinkStyleButton/LinkStyleButton";
 import MenuButton from "../../../ui/Buttons/MenuButton/MenuButton";
+import CardNews from "../../../ui/Card/CardNews";
+import UniversityLife from "../../components/UniversityLife/UniversityLife";
+import PartnersSliders from "../../components/PartnersSliders/PartnersSliders";
+
+const flex = {
+    padding: "134px 134px 0",
+    display: "flex",
+    justifyContent: "center",
+    gap: "60px"
+}
 
 export const TestPage = () => {
     return (
@@ -27,7 +37,27 @@ export const TestPage = () => {
                 <ArrowNext />
                 <ArrowPrev />
             </>
+            <div style={flex}>
+                <CardNews 
+                    image="https://jcement.ru/upload/iblock/ea5/BGITU-logo.png" 
+                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." 
+                    link="https://example.com" 
+                />
+                <CardNews 
+                    image="https://i3.photo.2gis.com/images/geo/62/8725724292229816_2ea9.jpg" 
+                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." 
+                    link="https://example.com" 
+                />
+                <CardNews 
+                    image="https://avatars.mds.yandex.net/i?id=f93e2410171440c81c60377a0edcf40b_l-5273789-images-thumbs&n=13" 
+                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." 
+                    link="https://example.com" 
+                />
+            </div>
             <Buildings />
+            <UniversityLife />
+            <PartnersSliders />
         </>
     )
 }

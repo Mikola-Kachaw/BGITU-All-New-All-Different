@@ -1,0 +1,18 @@
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: hidden;
+    padding: 100px 0;
+}
+  
+.marqueeWrapper {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marqueeItem {
+    margin-right: 40px;
+}
+  

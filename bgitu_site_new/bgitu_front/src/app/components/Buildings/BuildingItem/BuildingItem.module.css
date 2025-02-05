@@ -1,0 +1,21 @@
+.building {
+    border-bottom: 4px solid #1968AB;
+    padding: 27px 0 8.5px;
+}
+
+.titleBuilding {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.titleBuilding:hover {
+    text-decoration: underline;
+}
+
+.adressBuilding {
+    margin-top: 6px;
+
+    color: rgb(108, 108, 108);
+    font-size: 21px;
+    font-weight: 700;
+}
