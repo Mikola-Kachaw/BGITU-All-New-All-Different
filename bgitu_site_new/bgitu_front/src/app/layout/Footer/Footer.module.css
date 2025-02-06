@@ -1,0 +1,71 @@
+.footer {
+    padding: 56px 69px 8px 109px;
+    background-color: #292929;
+}
+
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+  
+.logoImg {
+    width: 147px;
+    height: 151px;
+}
+  
+.textContainer {
+    color: white;
+    font-size: 38px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: 15px;
+}
+
+
+.container {
+    margin-top: 187px;
+    margin-bottom: 177px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 53px;
+}
+  
+.column,
+.column2 {
+    display: flex;
+    flex-direction: column;
+    gap: 26.4px;
+}
+
+.column2 {
+    justify-content: flex-end;
+}
+  
+.column a,
+.column div,
+.column2 a,
+.column2 div {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  
+.column a:hover {
+    text-decoration: underline;
+}
+
+
+.copyright {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}

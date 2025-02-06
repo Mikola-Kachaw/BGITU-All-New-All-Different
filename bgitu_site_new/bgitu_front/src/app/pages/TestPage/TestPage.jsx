@@ -6,6 +6,7 @@ import MenuButton from "../../../ui/Buttons/MenuButton/MenuButton";
 import CardNews from "../../../ui/Card/CardNews";
 import UniversityLife from "../../components/UniversityLife/UniversityLife";
 import PartnersSliders from "../../components/PartnersSliders/PartnersSliders";
+import Footer from "../../layout/Footer/Footer";
 
 const flex = {
     padding: "134px 134px 0",
@@ -58,6 +59,7 @@ export const TestPage = () => {
             <Buildings />
             <UniversityLife />
             <PartnersSliders />
+            <Footer />
         </>
     )
 }
