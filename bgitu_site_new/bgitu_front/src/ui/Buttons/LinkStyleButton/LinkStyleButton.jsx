@@ -7,7 +7,7 @@ const StyledLink = styled.a`
     background-color: ${(props) => props.bg || 'white'};
     color: ${(props) => props.cl || 'black'};
     width: 140px;
-    padding: 7px 0 0;
+    padding: 7px 0 4px;
     border: 1px solid ${(props) => props.bc || 'black'};
     border-radius: 10px;
     font-weight: bold;

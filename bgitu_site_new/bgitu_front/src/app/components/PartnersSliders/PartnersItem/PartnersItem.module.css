@@ -1,10 +1,11 @@
 .linkButton {
+    background-color: #ABABAB;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 351px;
     height: 143px;
-    border: 1px solid black;
+    border: 1px solid #ABABAB;
     border-radius: 20px;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -19,7 +20,8 @@
 }
   
 .linkButton:hover {
-    border-color: #444;
+    border-color: black;
+    background-color: white;
 }
   
 .linkButton:hover .logo {

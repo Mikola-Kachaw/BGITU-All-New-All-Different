@@ -1,0 +1,50 @@
+.card {
+    width: 599px;
+    height: 334px;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallText {
+    font-size: 14px;
+    color: #838383;
+    line-height: 17.17px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45.6px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    line-height: 23.3px;
+}
+
+.textLine {
+    font-size: 19px;
+    font-weight: 400;
+    color: #838383;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+}
