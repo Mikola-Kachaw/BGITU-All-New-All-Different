@@ -7,7 +7,7 @@ export const PublicRouter = () => {
         <>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home/>} />
+                    <Route path="/" element={<Home titlePage="Главная"/>} />
                     <Route path="/test" element={<TestPage/>} />
                 </Routes>
             </BrowserRouter>

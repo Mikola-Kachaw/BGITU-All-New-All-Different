@@ -1,0 +1,31 @@
+.container {
+    max-width: 1655px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainMessage {
+    font-size: 5rem;
+    line-height: 1.2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    animation: moving-right 1s ease-in-out;
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*z-index: -1;*/
+}
+
+.textBlue {
+    color: #1967AB;
+}
+
+@keyframes moving-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+
+}

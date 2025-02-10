@@ -3,7 +3,6 @@ import styled from "styled-components";
 const MenuButtonWrapper = styled.button`
     display: flex;
     align-items: center;
-    margin: 1em 0 0 1em;
 `;
 
 const MenuIcon = styled.div`
@@ -26,9 +25,9 @@ const Label = styled.span`
     margin-left: 5px;
 `;
 
-export default function MenuButton() {
+export default function MenuButton({handleClickMenu}) {
   return (
-    <MenuButtonWrapper>
+    <MenuButtonWrapper onClick={handleClickMenu}>
         <MenuIcon>
             <div />
             <div />

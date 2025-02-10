@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.headerTop {
+    padding: 15px 100px;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    backdrop-filter: blur(0);
+    will-change: background-color, backdrop-filter;
+}
+
+.glassBackground {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+.rightHeader {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
