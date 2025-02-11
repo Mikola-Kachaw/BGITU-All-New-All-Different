@@ -1,0 +1,58 @@
+.MainFaculty {
+    padding: 248px 0 205px 0;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.mainTitle {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    padding: 0 40px;
+}
+
+.mainDescription {
+    font-size: 3rem;
+    margin-top: 20px;
+    font-style: italic;
+    padding: 0 40px;
+}
+
+.educationalPrograms {
+    margin-top: 44px;
+    padding: 0 40px;
+}
+
+.sectionTitle {
+    font-size: 3.375rem;
+    text-transform: uppercase;
+}
+
+.educationalProgramsList {
+    color: #000000;
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 38px 19px;
+}
+
+.mainBottom {
+    padding: 0 140px;
+    margin: 182px auto 0 auto;
+}
+
+.mainBottomContent {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 148px;
+}
+
+.mainBottomText {
+    font-size: 3rem;
+}
+
+.mainBottomText > span {
+    display: block;
+}

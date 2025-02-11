@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 200px;
     padding: 56px 69px 8px 109px;
     background-color: #292929;
 }
@@ -8,12 +9,12 @@
     display: flex;
     align-items: center;
 }
-  
+
 .logoImg {
     width: 147px;
     height: 151px;
 }
-  
+
 .textContainer {
     color: white;
     font-size: 38px;
@@ -34,7 +35,7 @@
     justify-content: space-between;
     gap: 53px;
 }
-  
+
 .column,
 .column2 {
     display: flex;
@@ -45,7 +46,7 @@
 .column2 {
     justify-content: flex-end;
 }
-  
+
 .column a,
 .column div,
 .column2 a,
@@ -56,7 +57,7 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-  
+
 .column a:hover {
     text-decoration: underline;
 }

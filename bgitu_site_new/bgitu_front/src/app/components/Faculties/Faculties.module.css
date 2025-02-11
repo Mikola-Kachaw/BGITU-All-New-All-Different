@@ -1,3 +1,7 @@
+.faculties {
+    margin-top: 70px;
+}
+
 .title {
     margin-top: 84px;
     margin-bottom: 30px;
@@ -9,5 +13,4 @@
     display: flex;
     justify-content: center;
     gap: 22.6px;
-    margin-bottom: 259px;
 }

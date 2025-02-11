@@ -8,7 +8,7 @@ export const Nav = ({isOpenMenu, handleClickMenu}) => {
     const menu = [
         {
             name: "Абитуриентам",
-            url: "#"
+            url: "/faculties"
         },
         {
             name: "школьникам",

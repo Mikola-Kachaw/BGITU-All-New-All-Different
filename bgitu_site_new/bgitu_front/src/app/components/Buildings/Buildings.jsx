@@ -26,7 +26,7 @@ export default function Buildings() {
                             key={index}
                             title={building.title}
                             address={building.address}
-                            onClick={() => setSelectedCoords(building.coords)} // При клике меняем координаты
+                            onClick={() => setSelectedCoords(building.coords)}
                         />
                     ))}
                 </div>

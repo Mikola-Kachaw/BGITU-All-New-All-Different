@@ -10,9 +10,16 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     display: flex;
-    flex-direction: column;
+    padding: 295px 26px 117px 26px;
     gap: 10px;
+}
+
+.post > iframe {
+    height: 1000px !important;
+}
+
+.post > iframe:last-child {
+    display: none;
 }
 
